@@ -1,0 +1,12 @@
+Intoduction to Machine Learning 
+================================
+
+Machine Learning (ML) is a field of computer science that gives computers the ability to learn and improve from experience without being explicitly programmed.
+
+Traditional Programming: You write explicit rules.
+if email contains "free money", then mark as spam.
+Machine Learning: You show the computer many examples of spam and non-spam emails, and it learns the patterns itself.
+Input: [1000s of emails] → Output: A model that can predict if a new email is spam.
+
+Key Takeaway: 
+ML is about learning from data to make predictions or decisions.
