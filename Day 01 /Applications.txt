@@ -1,0 +1,12 @@
+       Applications of ML
+======================================
+
+Applications                        Descriptions                                                               ML Types
+
+Recommendation Systems         Netflix suggests movies, Amazon suggests products.                         Supervised (Collaborative Filtering)
+Image Recognition              Facebook tags people in photos, self-driving cars detect pedestrians.      Supervised (Classification)
+Spam Filtering                 Gmail automatically filters junk mail.                                     Supervised (Classification)
+Voice Assistants               Siri, Alexa, and Google Assistant understand and respond to speech.        Supervised (NLP)
+Fraud Detection                Credit card companies flag suspicious transactions.                        Supervised (Anomaly Detection)
+Customer Segmentation          Grouping customers based on purchasing behavior.                           Unsupervised (Clustering)
+Medical Diagnosis              Assisting doctors in identifying diseases from scans.                      Supervised (Classification)
