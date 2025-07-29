@@ -1,0 +1,44 @@
+Machine Learning Development Life Cycle (MLDLC)
+====================================================
+
+The Machine Learning Development Life Cycle outlines the process of building and deploying an ML model:
+
+Problem Definition 
+=======================================
+Understand and define the business or research problem.
+
+Data Collection 
+======================================
+Gather relevant and high-quality data.
+
+Data Preprocessing 
+=======================================
+Clean and transform data (handling missing values, normalization, etc.).
+
+Exploratory Data Analysis (EDA) 
+======================================
+Understand data patterns, correlations, and outliers.
+
+Model Selection 
+=======================================
+Choose appropriate ML algorithms (e.g., Decision Tree, SVM, etc.).
+
+Model Training 
+=======================================
+Train the model using the training dataset.
+
+Model Evaluation 
+========================================
+Test model performance using metrics like accuracy, precision, recall.
+
+Hyperparameter Tuning 
+========================================
+Optimize model parameters to improve performance.
+
+Deployment 
+=======================================
+Integrate the model into a production environment.
+
+Monitoring & Maintenance 
+=======================================
+Continuously monitor model performance and update as needed
