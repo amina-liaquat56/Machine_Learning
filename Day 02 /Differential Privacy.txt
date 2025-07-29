@@ -1,0 +1,17 @@
+Introduction to Differential Privacy (DP)
+
+===================================================
+
+Definition
+==================================
+
+Differential Privacy is a system for publicly sharing information about a dataset by describing patterns of groups within the dataset while withholding information about individuals in the dataset.
+In simple terms: It allows us to analyze data without compromising anyone's personal privacy.
+
+Importance
+=================================
+Protects individual data even if someone has access to the dataset.
+
+Used by tech companies like Apple, Google, and Microsoft to enhance data privacy in analytics.
+
+Helps comply with data protection laws such as GDPR and HIPAA.
