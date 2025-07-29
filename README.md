@@ -1,4 +1,4 @@
-# Machine Learning from Scratch
+# Machine_Learning from Scratch
 
 # Course Outline
 
