@@ -1,0 +1,18 @@
+Introduction to Python Programming 
+
+=======================================
+Python is widely used in Machine Learning due to its simplicity, vast libraries, and active community.
+
+Key Concepts:
+========================================
+- Variables and Data Types: int, float, str, bool, list, dict
+
+- Control Flow: if-else, for/while loops
+
+- Functions: def keyword, lambda functions
+
+- Object-Oriented Programming (OOP): classes, objects, inheritance
+
+- File I/O: Reading from and writing to files
+
+- Virtual Environments: venv, conda environments
