@@ -1,0 +1,10 @@
+Introduction to Privacy Libraries in Python
+
+=============================================
+As ML models handle sensitive data, incorporating privacy into data handling and model training is crucial.
+
+What to Know:
+=============================================
+Privacy in ML: Preventing leakage of personal information from training data.
+
+Types of Privacy: Anonymization, encryption, Differential Privacy (DP)
