@@ -1,0 +1,24 @@
+Libraries for Data Analysis
+==================================
+
+Python offers powerful libraries for handling, cleaning, and analyzing data.
+
+Pandas
+================================
+Data structures: Series, DataFrame
+
+Reading data: read_csv(), read_excel()
+
+Data wrangling: dropna(), fillna(), filtering, grouping
+
+Statistical summaries: describe(), value_counts()
+
+NumPy
+================================
+Multidimensional arrays: ndarray
+
+Array operations: slicing, reshaping, broadcasting
+
+Mathematical functions: mean(), std(), dot()
+
+Random generation: np.random.randn(), np.random.seed()
