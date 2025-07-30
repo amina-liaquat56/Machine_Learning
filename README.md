@@ -11,3 +11,12 @@
 - Definition and Importance.
 
   ---
+
+**Module 02:**
+
+- Introduction to Python Programming
+- Libraries for Data Analysis: Pandas, NumPy
+- Introduction to Privacy Libraries in Python
+- Libraries for Implementing Differential Privacy: PySyft, PyTorch Opacus
+
+  ---
