@@ -1,0 +1,40 @@
+Libraries for Implementing Differential Privacy
+
+===============================================
+PySyft
+
+=============================================
+Developed by OpenMined
+
+Enables Privacy-Preserving Machine Learning (PPML)
+
+Tools for:
+
+Federated learning
+
+Secure multi-party computation (SMPC)
+
+Differential privacy
+
+Compatible with PyTorch and TensorFlow
+
+Example: Training a model with remote private datasets
+
+
+PyTorch Opacus
+
+======================================
+Developed by Meta AI
+
+Specifically designed for Differential Privacy in PyTorch
+
+Key Features:
+
+Adds DP during training (e.g., noise injection to gradients)
+
+Supports per-sample gradient clipping
+
+Integrates easily with torch.nn.Module
+
+Use case: Training a neural network while maintaining privacy guarantees.
+
