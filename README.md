@@ -20,3 +20,17 @@
 - Libraries for Implementing Differential Privacy: PySyft, PyTorch Opacus
 
   ---
+
+**Module 03:**
+
+- Data Analysis and Preprocessing Techniques
+- Data Cleaning: Handling Missing Data, Categorical Features, Outliers
+- Encoding Categorical Features
+- Outlier Detection using Visualization
+- Feature Engineering: Feature Transformation, Selection, Construction, and Extraction
+- Dimensionality Reduction with PCA (Principal Component Analysis)
+- Privacy-Preserving Data Preprocessing
+    - Anonymization Techniques
+   - Privacy Risks in Data Preprocessing
+ 
+---
