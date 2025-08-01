@@ -1,0 +1,77 @@
+Machine Learning Fundamentals
+*******************************************
+
+1. Learning Approaches
+******************************************
+
+Batch Learning:
+- Model is trained on the entire dataset at once.
+- Good for static data, but retraining is expensive when new data arrives.
+
+Online Learning:
+- Model is trained incrementally, one instance or batch at a time.
+- Ideal for streaming data or real-time applications.
+
+Model-Based Learning:
+- Learns a model (like linear regression) to make predictions.
+- Generalizes from training data to unseen data.
+- Examples: Decision Trees, SVMs, Neural Networks.
+
+Instance-Based Learning:
+- Memorizes training data and uses it for direct comparison.
+- Makes predictions using similar past instances.
+- Examples: K-Nearest Neighbors (KNN)
+
+
+2. Types of Machine Learning
+******************************************
+
+Supervised Learning:
+- Learns from labeled data (input → output).
+- Goal: Predict output for new data.
+- Examples: Classification, Regression
+
+Unsupervised Learning:
+- Learns from unlabeled data.
+- Goal: Discover structure/patterns in data.
+- Examples: Clustering, Dimensionality Reduction, Association Rules
+
+Semi-Supervised Learning:
+- Uses small labeled + large unlabeled dataset.
+- Cost-effective when labeling is expensive.
+
+Reinforcement Learning:
+- Learns by interacting with environment.
+- Receives rewards or penalties for actions.
+- Goal: Learn a policy to maximize cumulative reward.
+- Used in: Robotics, Games, Recommendation Systems
+
+
+3. Privacy Risks in Learning Approaches
+  
+************************************************************
+  
+Supervised Learning: Risks of Label Leakage
+- Label Leakage: When labels (or data correlated with labels) are unintentionally exposed or inferred.
+- Can lead to model overfitting or exploitation.
+- Example: Health diagnosis data — labels might reveal medical conditions.
+
+  ----------------
+
+Unsupervised Learning: Risks in Clustering & Association
+
+Clustering Risks:
+- Clusters may group sensitive user identities or behaviors.
+- Example: Clustering users based on app usage may reveal private interests.
+
+Association Risks:
+- Can reveal hidden relationships between sensitive attributes.
+- Example: Association rules in retail data may expose customer buying habits.
+
+  --------------
+
+
+Key Takeaways:
+- Choose the right learning approach based on data availability and update frequency.
+- Understand and mitigate privacy risks in different ML settings.
+- Implement privacy-preserving techniques (e.g., differential privacy, federated learning) when needed.
