@@ -34,3 +34,33 @@
    - Privacy Risks in Data Preprocessing
  
 ---
+
+**Module 04:**
+
+- Machine Learning Fundamentals
+- Learning Approaches: Batch vs Online, Model-based vs Instance-based
+- Types of Machine Learning: Supervised, Unsupervised, Semi-Supervised, Reinforcement Learning
+- Privacy Risks in Different Learning Approaches
+    - Supervised Learning: Risks of Label Leakage
+    - Unsupervised Learning: Risks in Clustering and Association
+
+---
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
