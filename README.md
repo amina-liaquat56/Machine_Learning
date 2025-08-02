@@ -46,6 +46,32 @@
 
 ---
 
+**Module 05:**
+
+- Supervised Learning Algorithms
+     - Introduction to Supervised Learning  
+     - Regression vs. Classification  
+
+- Regression Algorithms
+    - Simple Linear Regression  
+    - Multilinear Regression  
+    - Polynomial Regression  
+       - Application: House Price Prediction  
+
+- Classification Algorithms
+    - Decision Tree Classifier  
+    - Random Forest  
+    - K-Nearest Neighbors (KNN)  
+    - Naive Bayes  
+    - Support Vector Machines (SVM)  
+
+- Differential Privacy in Supervised Learning
+     - Noise Addition in Regression Models  
+     - Privacy-Preserving Decision Trees
+ 
+---
+
+
 
 
 
