@@ -1,0 +1,85 @@
+Supervised Learning Algorithms
+
+**********************************************'
+
+Introduction to Supervised Learning
+************************************************
+Supervised learning is a type of machine learning where a model is trained on labeled data, meaning the input comes with the correct output. 
+The goal is for the model to learn the mapping from inputs to outputs and make accurate predictions on unseen data.
+
+---
+
+Regression vs. Classification
+***********************************************
+
+| Feature         | Regression                          | Classification                      |
+|-----------------|--------------------------------------|-------------------------------------|
+| Output Type     | Continuous (e.g., house price)       | Discrete (e.g., spam or not spam)   |
+| Algorithm Types | Linear Regression, Polynomial, etc.  | Decision Trees, SVM, Naive Bayes    |
+| Goal            | Predict numeric value                | Predict class/category              |
+
+---
+
+
+Regression Algorithms
+**************************************************
+
+1. Simple Linear Regression
+- Model: y = mx + c
+- Use Case: Predicting house prices based on area.
+- Example: price = 5000 * size + 20000
+
+2. Multilinear Regression
+- Model: y = b0 + b1x1 + b2x2 + ... + bnxn
+- Use Case: House price prediction based on area, number of rooms, location score.
+
+3. Polynomial Regression
+- Model: y = b0 + b1x + b2x^2 + ... + bnx^n
+- Use Case: Non-linear relationships like predicting traffic patterns based on time.
+
+----
+
+
+Classification Algorithms
+*************************************************
+
+1. Decision Tree Classifier
+- Use Case: Email spam detection.
+- Visual: Tree-like structure that splits features into branches.
+
+2. Random Forest
+- Use Case: Disease diagnosis.
+- Note: Ensemble of multiple decision trees (more robust than a single tree).
+
+3. K-Nearest Neighbors (KNN)
+- Use Case: Handwritten digit recognition (e.g., MNIST).
+- Idea: Classify a point based on the 'k' closest data points.
+
+4. Naive Bayes
+- Use Case: Sentiment analysis.
+- Based on: Bayes’ Theorem and assumes independence among features.
+
+5. Support Vector Machines (SVM)
+- Use Case: Face detection.
+- Concept: Finds a hyperplane that best separates classes.
+
+---
+
+Differential Privacy in Supervised Learning
+*********************************************************
+
+What is Differential Privacy?
+Differential privacy ensures that the inclusion or exclusion of a single data point does not significantly affect the output of a model.
+
+Noise Addition in Regression Models
+- Goal: Protect individual data points.
+- Method: Add Laplacian or Gaussian noise to training labels or model coefficients.
+- Challenge: Maintain model accuracy while preserving privacy.
+
+Privacy-Preserving Decision Trees
+- Techniques:
+  - Add noise to split criteria or leaf predictions.
+  - Use cryptographic techniques (e.g., secure multiparty computation).
+- Use Case: Secure medical diagnosis systems.
+
+**************************************************************'
