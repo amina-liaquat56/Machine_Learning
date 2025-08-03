@@ -1,0 +1,115 @@
+Model Evaluation and Optimization
+
+============================================
+
+Regression Metrics
+
+- Mean Absolute Error (MAE): Average absolute difference between predicted and actual values.
+- Mean Squared Error (MSE): Average of squared differences (penalizes large errors).
+- R² Score**: Proportion of variance explained by the model (ranges from 0 to 1).
+====================================
+
+Classification Metrics
+
+- Accuracy: Proportion of correct predictions (can be misleading for imbalanced data).
+- Precision: Fraction of relevant instances among retrieved instances.
+- Recall (Sensitivity): Fraction of relevant instances that were retrieved.
+- F1-Score: Harmonic mean of precision and recall.
+- ROC-AUC: Area under the ROC curve, measures class separability.
+====================================
+
+Imbalanced Data in Machine Learning
+
+Challenges
+- Bias towards the majority class.
+- Poor performance on minority class detection.
+
+Solutions
+- Resampling Techniques:
+  - Oversampling (e.g., SMOTE)
+  - Undersampling majority class
+- Weighted Loss Functions: Penalize minority class errors more.
+- Anomaly Detection: View minority class as an outlier detection task.
+- Ensemble Methods: Use Balanced Random Forest or boosting techniques.
+
+=======================================
+
+Underfitting vs Overfitting
+
+| Category         | Underfitting                      | Overfitting                             |
+|------------------|-----------------------------------|------------------------------------------|
+| Bias/Variance    | High bias, low variance           | Low bias, high variance                  |
+| Performance      | Poor on both training and test    | Good on training, poor on test           |
+| Causes           | Too simple model                  | Too complex model / noisy data           |
+| Solutions        | Increase complexity               | Regularization, pruning, cross-validation|
+
+========================================
+
+
+Ensemble Methods
+
+- **Bagging**: Combines predictions from models trained on random subsets of the data.  
+  - Example: **Random Forest**
+  - Reduces variance.
+
+- **Boosting**: Sequentially corrects errors made by previous models.  
+  - Examples: **AdaBoost**, **XGBoost**, **LightGBM**
+  - Reduces bias.
+
+- **Stacking**: Combines predictions using a meta-model.
+
+=========================================
+Hyperparameter Tuning
+
+- **Grid Search**: Exhaustive search over a grid of parameters.
+- **Random Search**: Samples hyperparameters randomly.
+- **Bayesian Optimization**: Models the objective function probabilistically.
+- **Tools**: `GridSearchCV`, `RandomizedSearchCV`, **Optuna**, **Hyperopt**
+
+=========================================
+
+Privacy-Preserving Model Evaluation
+
+Challenges
+- ML models may leak training data (privacy risks).
+
+Techniques
+- **Data Anonymization**: Remove or mask personal identifiers.
+- **Federated Learning**: Train models on-device without sharing raw data.
+- **Homomorphic Encryption**: Enables computation on encrypted data.
+
+=======================================
+
+Metrics for Assessing Privacy Risks
+
+- **Membership Inference Attacks**: Can an attacker determine if a data point was in the training set?
+- **Model Inversion Attacks**: Attempts to reconstruct training data from model outputs.
+- **Exposure Metrics**: Quantify the likelihood of data leakage.
+
+========================================
+Differential Privacy in Model Optimization
+
+- **What is DP?**:
+A mathematical guarantee that inclusion/exclusion of any individual does not significantly affect the model’s output.
+
+Key Techniques
+- **DP-SGD**: Adds noise to gradients during training (used in deep learning).
+- **Laplace & Exponential Mechanism**: Adds noise to model outputs or scoring functions.
+
+Trade-offs
+- Increased privacy often reduces accuracy.
+- Must balance utility with privacy guarantees.
+
+=============================================
+
+Summary of Key Trade-offs
+
+| Goal                   | Technique                            | Trade-off                        |
+|------------------------|---------------------------------------|----------------------------------|
+| Improve Generalization | Regularization, Cross-Validation      | Higher computation               |
+| Handle Imbalance       | SMOTE, Class Weights, Ensemble Methods| Overfitting to minority class    |
+| Privacy Preservation   | Differential Privacy, FL, Encryption  | Reduced model utility/accuracy   |
+
+========================================
+
+
