@@ -71,6 +71,19 @@
  
 ---
 
+**Module 06:**
+- Model Evaluation & Optimization
+- Regression and Classification Metrics
+- Imbalanced Data in Machine Learning
+- Underfitting vs Overfitting
+- Ensemble Methods: Bagging, Boosting
+- Hyperparameter Tuning
+- Privacy-Preserving Model Evaluation
+- Metrics for Assessing Privacy Risks
+- Differential Privacy in Model Optimization
+
+---
+
 
 
 
